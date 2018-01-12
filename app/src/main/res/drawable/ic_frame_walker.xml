@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:oneshot="true" : run only one time -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_animation"
+    android:oneshot="true"
+    >
+    <item
+        android:drawable="@drawable/ic_walker1"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker4"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker7"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker10"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker13"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker16"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker19"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker22"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker25"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/ic_walker1"
+        android:duration="150"/>
+
+</animation-list>
