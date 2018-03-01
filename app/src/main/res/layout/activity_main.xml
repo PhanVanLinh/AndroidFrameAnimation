@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="toong.vn.androidframeanimation.MainActivity"
+    android:orientation="vertical"
     >
 
     <ImageView
         android:id="@+id/image_walker"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_margin="20dp"
         android:src="@drawable/ic_frame_walker"
         />
@@ -22,4 +22,10 @@
         android:text="Start Frame Animation"
         />
 
+    <Button
+        android:id="@+id/button_stop_frame_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Frame Animation"
+        />
 </LinearLayout>
